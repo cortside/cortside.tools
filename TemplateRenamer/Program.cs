@@ -16,7 +16,7 @@ namespace TemplateRenamer
             Console.WriteLine();
 
 
-            var oldName = "AspNetCoreTemplate";
+            string oldName = null;
             while (string.IsNullOrWhiteSpace(oldName))
             {
                 Console.Write("What is your project's old name ([A-Z][a-z]): ");

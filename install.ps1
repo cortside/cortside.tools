@@ -1,3 +1,5 @@
+./clean.ps1
+
 dotnet tool uninstall -g microsoft.botsay
 dotnet tool uninstall -g TemplateRenamer
 
